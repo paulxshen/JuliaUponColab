@@ -2,8 +2,8 @@ set -e
 
 #---------------------------------------------------#
 JULIA_VERSION="1.10.0" # any version ≥ 0.7.0
-JULIA_PACKAGES=""
-JULIA_PACKAGES_IF_GPU="IJulia"
+JULIA_PACKAGES="IJulia"
+JULIA_PACKAGES_IF_GPU=""
 JULIA_NUM_THREADS=4
 #---------------------------------------------------#
 
