@@ -12,8 +12,7 @@ Then reload page and change runtime to Julia
 
 Optionally, also run 
 ```
-using AbbreviatedStackTraces
-ENV["JULIA_PKG_PRECOMPILE_AUTO"] = 0
+include("JuliaUponColab/startup.jl")
 ```
  to simplify stack trace and avoid unnecessary precompilations
 
